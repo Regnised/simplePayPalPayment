@@ -1,0 +1,25 @@
+{
+  "name": "paypalsimple",
+  "version": "0.0.0",
+  "private": true,
+  "description": "how to start accepting payments on your website using paypal",
+  "main": "server.js",
+  "keywords": [
+    "paypal",
+    "payment",
+    "gateway",
+    "nodejs",
+    "payment",
+    "integration",
+    "in",
+    "web",
+    "apps"
+  ],
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.0",
+    "paypal-rest-sdk": "^1.7.1"
+  }
+}
